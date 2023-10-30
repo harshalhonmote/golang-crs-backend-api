@@ -2,6 +2,11 @@
 - same backend created in java spring boot you can checkout [here](https://github.com/Online-Car-Rental-System-CDAC-Proj/BackEnd)
 - here i used GORM which is Object Relational Mapping (ORM) library for Golang, similer to Hibernate in Java.
 - Gin is a high-performance HTTP web framework written in Golang (Go). (Fiber web framework also populer one)
+  To Run
+  ```
+    $ go mod download
+    $ go run main.go
+  ```
 #### Model Example in Golang
 ```
 type User struct {
